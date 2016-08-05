@@ -24,7 +24,7 @@ func (mp MangaPage) GetTitle() (string, error) {
 		return "", err
 	}
 
-	if len(nodes == 0) {
+	if len(nodes) == 0 {
 		return "", nil
 	}
 
