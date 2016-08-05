@@ -1,0 +1,6 @@
+package: .
+import:
+- package: github.com/moovweb/gokogiri
+  version: ^5.999.253
+  subpackages:
+  - html
